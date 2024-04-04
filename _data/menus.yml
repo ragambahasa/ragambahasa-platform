@@ -3,16 +3,16 @@ main:
     url: "https://ragambahasa.id/login"
     weight: 2
   - name: "OCR-DT"
-    url: "/#/"
+    url: "#!"
     weight: 3
   - name: "Translate"
-    url: "/#/"
+    url: "#!"
     weight: 4
   - name: "Stats"
-    url: "/#/"
+    url: "#!"
     weight: 5
   - name: "Blog"
-    url: "/#/"
+    url: "#!"
     weight: 6
   - name: "About"
     url: "/about/"
@@ -20,8 +20,8 @@ main:
 
 footer:
   - name: "FAQ"
-    url: "/"
+    url: "#!"
     weight: 1
   - name: "Contact"
-    url: "/#/"
+    url: "#!"
     weight: 2

@@ -5,7 +5,39 @@ description: About
 bodyClass: page-about
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
+Welcome to RagamBahasa! We are thrilled to have you here and would love to share more about who we are and what we stand for.
+
+<img src="/images/logo/ragambahasa_logo_light.svg" alt="drawing" width="768"/>
+
+## Our Mission
+At RagamBahasa, our mission is to digitize any language resources that still can be found, such as newspaper, books, manuscript, and also their digital content. We are dedicated to preserve remains Indonesian local languages.
+
+## Our Story
+RagamBahasa was founded in 2022 with the vision of research collaboration in Indonesian NLP. Since then, we have grown and evolved, but our commitment to preserve Indonesian local languages remains unwavering.
+
+<!-- ## What We Do
+RagamBahasa is [describe the primary activities, services, or products offered]. Whether it's [list specific offerings], we strive to [mention what sets your organization apart]. -->
+
+## Our Values
+At RagamBahasa, we value:
+
+- **Integrity**: We conduct ourselves with honesty and transparency in all our interactions.
+- **Innovation**: We embrace creativity and strive for continuous improvement in everything we do.
+- **Community**: We believe in fostering a sense of belonging and collaboration among our members.
+- **Impact**: We are committed to making a positive difference in the lives of [mention relevant stakeholders].
+
+## Meet the Team
+Our team at RagamBahasa is comprised of passionate individuals dedicated to [mention team's collective goal or purpose]. Get to know the faces behind RagamBahasa and discover the diverse talents and expertise that drive our success.
+
+## Contact Us
+Have questions or want to learn more about RagamBahasa? Feel free to reach out to us at [provide contact information] or [mention any other preferred method of communication].
+
+Thank you for your interest in RagamBahasa. We look forward to connecting with you and working together to achieve our goals.
+
+
+---
+
+<!-- Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
 de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
 crimen habet Priamum nec.
 
@@ -84,4 +116,4 @@ The balance sheet is the financial statement showing a firm's assets, liabilitie
     - international
 - goodwill
 
-Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet.
+Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet. -->

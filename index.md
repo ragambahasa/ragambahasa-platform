@@ -1,5 +1,5 @@
 ---
-title: Jekyll Serif Theme
+title: RagamBahasa
 layout: home
 description: Grassroot movement initiation of Indonesian Local Language Resources Collecting.
 intro_image: "https://cdn.pixabay.com/photo/2021/07/08/14/06/general-soedirman-6396997_960_720.jpg" # "images/illustrations/pointing.svg"
