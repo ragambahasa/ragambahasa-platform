@@ -1,0 +1,27 @@
+main:
+  - name: "DataHub"
+    url: "https://ragambahasa.id/login"
+    weight: 2
+  - name: "OCR-DT"
+    url: "/#/"
+    weight: 3
+  - name: "Translate"
+    url: "/#/"
+    weight: 4
+  - name: "Stats"
+    url: "/#/"
+    weight: 5
+  - name: "Blog"
+    url: "/#/"
+    weight: 6
+  - name: "About"
+    url: "/about/"
+    weight: 7
+
+footer:
+  - name: "FAQ"
+    url: "/"
+    weight: 1
+  - name: "Contact"
+    url: "/#/"
+    weight: 2

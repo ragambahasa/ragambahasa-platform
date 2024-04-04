@@ -1,0 +1,163 @@
+---
+layout: default
+bodyClass: "page-home"
+---
+<!-- Hero -->
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1 my-auto mx-auto">
+        {{ content }}
+        {% if page.show_call_box %}
+          {% include call.html show_button=true %}
+        {% endif %}
+      </div>
+      {% if page.intro_image %}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img 
+          alt="{{ page.title }}" 
+          class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" 
+          src="{{ page.intro_image | relURL }}" 
+        />
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+
+<!-- Features-3 boxes -->
+{% if site.data.features %}
+<div class="strip strip-grey">
+  <div class="container pt-3 pb-3 pt-md-3 pb-md-3">
+    <div class="row justify-content-center">
+
+      {% for feature in site.data.features %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {% if feature.image %}
+          <div class="feature-image">
+            <img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" />
+          </div>
+          {% endif %}
+          <h2 class="feature-title">{{ feature.title }}</h2>
+          <div class="feature-content my-auto mx-auto">{{ feature.description }}</div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+
+<!-- Showcases -->
+<div class="showcase">
+  <div class="container p-0">
+    
+    <!-- Showcase-1 -->
+    <div class="row g-0">
+      <!-- Images -->
+      <div class="col-lg-6 order-lg-2 showcase-img">
+        <div style="background-image: url(https://images.unsplash.com/photo-1611637641767-fd83fbcf9d73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80); 
+                    background-repeat: no-repeat; 
+                    background-position: center 50%;
+                    background-size: cover;
+                    width: 100%;
+                    height: 20rem;">
+        </div>
+      </div>
+      <!-- Description -->
+      <div class="col-lg-6 order-lg-1 my-auto mx-auto">
+        <div class="p-3">
+          <h2>Indonesian Languages have been noted as Rising Languages!</h2>
+          <p>
+            Indonesian Languages is considered a "rising star" 
+            (<a href="https://microsoft.github.io/linguisticdiversity/" target="_blank" >microsoft</a>) in terms of language resources (due to its strong web presence
+            and thriving online). Indonesia also has more than 700 local
+            languages spread over 17,508 islands, making Indonesia the second country with the world's largest spoken languages.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Showcase-2 -->
+    <div class="row g-0">
+      <!-- Images -->
+      <div class="col-lg-6 order-lg-1 showcase-img">
+        <div style="background-image: url(https://cdn.pixabay.com/photo/2017/08/01/00/40/books-2562331_1280.jpg); 
+                    background-repeat: no-repeat; 
+                    background-position: center top;
+                    background-size: cover;
+                    width: 100%;
+                    height: 20rem;">
+        </div>
+      </div>
+      <!-- Description -->
+      <div class="col-lg-6 order-lg-2 my-auto mx-auto">
+        <div class="p-3">
+          <h2>Curating High-Quality Data for Translation</h2>
+          <p>
+            To start a grassroot effort in South East Asia to strengthen and
+            spur MT research in the region and for researchers interested in
+            collecting and working on any language data.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Showcase-3 -->
+    <div class="row g-0">
+      <!-- Images -->
+      <div class="col-lg-6 order-lg-2 showcase-img">
+        <div style="background-image: url(https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); 
+                    background-repeat: no-repeat; 
+                    background-position: center top;
+                    background-size: cover;
+                    width: 100%;
+                    height: 20rem;">
+        </div>
+      </div>
+      <!-- Description -->
+      <div class="col-lg-6 order-lg-1 my-auto mx-auto">
+        <div class="p-3">
+          <h2>Machine Translation (MT)</h2>
+          <p>
+            State-of-the-art only exist for 100 languages. Many languages still
+            do not have training data or existing technologies for translation.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>      
+</div>
+
+
+<!-- Article List Overview -->
+<!-- <div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      {% assign limit = site.home.limit_services | default: 6 %}
+      {% for service in site.services limit: limit %}
+      <div class="col-12 col-md-4 mb-1">
+        <div class="service service-summary">
+          <div class="service-content">
+            <h2 class="service-title">
+              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+            </h2>
+            <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
+      </div>
+    </div>
+  </div>
+</div> -->

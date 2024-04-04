@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Open Data",
+    "description": "Easing Indonesia NLP research efforts with centralized data sources and easy-to-access data.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Multilingual",
+    "description": "Indonesia has more than 700 local languages!",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Academic",
+    "description": "Our Work is Dedicated to Academia in Indonesia.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]
