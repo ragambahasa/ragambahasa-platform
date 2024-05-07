@@ -6,7 +6,7 @@ intro_image: "https://cdn.pixabay.com/photo/2021/07/08/14/06/general-soedirman-6
 intro_image_absolute: false
 intro_image_hide_on_mobile: true
 show_call_box: false
-lang: id
+lang: en
 ---
 
 # RagamBahasa

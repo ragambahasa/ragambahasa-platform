@@ -1,0 +1,46 @@
+i18n: 
+  - language: "en"
+    contents:
+    - title: "\"Gotong Royong\""
+      description: "With the spirit of collaboration of Indonesia NLP research"
+      icon:
+      - url: "images/features/gotong-royong.png"
+        width: 80
+        height: 80
+    
+    - title: "Multilingual"
+      description: "Indonesia has more than 700 local languages!"
+      icon:
+      - url: "images/features/multi-languages.png"
+        width: 80
+        height: 80
+
+    - title: "Academic"
+      description: "Our Work is Dedicated to Academia in Indonesia."
+      icon:
+      - url: "images/features/academic.png"
+        width: 80
+        height: 80
+  
+  - language: "id"
+    contents:
+    - title: "\"Gotong Royong\""
+      description: "Kolaborasi penelitian dalam bidang NLP di Indonesia"
+      icon:
+      - url: "images/features/gotong-royong.png"
+        width: 80
+        height: 80
+    
+    - title: "Multi-bahasa"
+      description: "Indonesia tercatat memiliki lebih dari 700+ bahasa daerah!"
+      icon:
+      - url: "images/features/multi-languages.png"
+        width: 80
+        height: 80
+
+    - title: "Akademik"
+      description: "Didedikasikan oleh para Akademia di Indonesia."
+      icon:
+      - url: "images/features/academic.png"
+        width: 80
+        height: 80

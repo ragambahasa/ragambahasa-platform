@@ -27,23 +27,33 @@ bodyClass: "page-home"
 
 
 <!-- Features-3 boxes -->
-{% if site.data.features %}
+{% if site.data.home_features %}
 <div class="strip strip-grey">
   <div class="container pt-3 pb-3 pt-md-3 pb-md-3">
     <div class="row justify-content-center">
 
-      {% for feature in site.data.features %}
+      {% for item in site.data.home_features.i18n %}
+      {% if item.language == page.lang %}
+      {% for content in item.contents %}
+
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
-          {% if feature.image %}
+          {% if content.icon %}
           <div class="feature-image">
-            <img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" />
+            <img 
+              alt="{{ content.title }} logo" 
+              src="{{ content.icon[0].url | relative_url }}" 
+              width="{{ content.icon[0].width }}" 
+              height="{{ content.icon[0].height }}" />
           </div>
           {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
-          <div class="feature-content my-auto mx-auto">{{ feature.description }}</div>
+          <h2 class="feature-title">{{ content.title }}</h2>
+          <div class="feature-content my-auto mx-auto">{{ content.description }}</div>
         </div>
       </div>
+
+      {% endfor %}
+      {% endif %}
       {% endfor %}
 
     </div>
@@ -55,12 +65,13 @@ bodyClass: "page-home"
 <!-- Showcases -->
 <div class="showcase">
   <div class="container p-0">
-    
+    {% for item in site.data.home_showcases.i18n %} 
+    {% if item.language == page.lang %}
     <!-- Showcase-1 -->
     <div class="row g-0">
       <!-- Images -->
       <div class="col-lg-6 order-lg-2 showcase-img">
-        <div style="background-image: url(https://images.unsplash.com/photo-1611637641767-fd83fbcf9d73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80); 
+        <div style="background-image: url( {{item.contents[0].thumbnail}} ); 
                     background-repeat: no-repeat; 
                     background-position: center 50%;
                     background-size: cover;
@@ -71,13 +82,8 @@ bodyClass: "page-home"
       <!-- Description -->
       <div class="col-lg-6 order-lg-1 my-auto mx-auto">
         <div class="p-3">
-          <h2>Indonesian Languages have been noted as Rising Languages!</h2>
-          <p>
-            Indonesian Languages is considered a "rising star" 
-            (<a href="https://microsoft.github.io/linguisticdiversity/" target="_blank" >microsoft</a>) in terms of language resources (due to its strong web presence
-            and thriving online). Indonesia also has more than 700 local
-            languages spread over 17,508 islands, making Indonesia the second country with the world's largest spoken languages.
-          </p>
+          <h2>{{ item.contents[0].header }}</h2>
+          <p>{{ item.contents[0].description }}</p>
         </div>
       </div>
     </div>
@@ -86,7 +92,7 @@ bodyClass: "page-home"
     <div class="row g-0">
       <!-- Images -->
       <div class="col-lg-6 order-lg-1 showcase-img">
-        <div style="background-image: url(https://cdn.pixabay.com/photo/2017/08/01/00/40/books-2562331_1280.jpg); 
+        <div style="background-image: url( {{item.contents[1].thumbnail}} ); 
                     background-repeat: no-repeat; 
                     background-position: center top;
                     background-size: cover;
@@ -97,12 +103,8 @@ bodyClass: "page-home"
       <!-- Description -->
       <div class="col-lg-6 order-lg-2 my-auto mx-auto">
         <div class="p-3">
-          <h2>Curating High-Quality Data for Translation</h2>
-          <p>
-            To start a grassroot effort in South East Asia to strengthen and
-            spur MT research in the region and for researchers interested in
-            collecting and working on any language data.
-          </p>
+          <h2>{{ item.contents[1].header }}</h2>
+          <p>{{ item.contents[1].description }}</p>
         </div>
       </div>
 
@@ -112,7 +114,7 @@ bodyClass: "page-home"
     <div class="row g-0">
       <!-- Images -->
       <div class="col-lg-6 order-lg-2 showcase-img">
-        <div style="background-image: url(https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); 
+        <div style="background-image: url( {{item.contents[2].thumbnail}} ); 
                     background-repeat: no-repeat; 
                     background-position: center top;
                     background-size: cover;
@@ -123,41 +125,12 @@ bodyClass: "page-home"
       <!-- Description -->
       <div class="col-lg-6 order-lg-1 my-auto mx-auto">
         <div class="p-3">
-          <h2>Machine Translation (MT)</h2>
-          <p>
-            State-of-the-art only exist for 100 languages. Many languages still
-            do not have training data or existing technologies for translation.
-          </p>
+          <h2>{{ item.contents[2].header }}</h2>
+          <p>{{ item.contents[2].description }}</p>
         </div>
       </div>
     </div>
-
+    {% endif %}
+    {% endfor %}
   </div>      
 </div>
-
-
-<!-- Article List Overview -->
-<!-- <div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
-      </div>
-    </div>
-  </div>
-</div> -->

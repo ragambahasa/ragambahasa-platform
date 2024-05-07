@@ -26,7 +26,7 @@ To build the theme.
 bundle exec jekyll build
 ```
 
-## Deployment
+<!-- ## Deployment
 
 ### Github Pages
 
@@ -39,10 +39,11 @@ For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would
 ### License
 
 - You cannot create ports of this theme
-- You cannot re-sell this theme
+- You cannot re-sell this theme -->
 
 ### Credits
 
 - Beautiful royalty free Illustrations by Icons8 - https://icons8.com/illustrations/style--pixeltrue
 - Stock images by Unsplash - https://unsplash.com/
 - Feature icons by Noun Project - https://thenounproject.com/
+- Jekyll Multilingual without Plugins - https://migueldavid.eu/how-to-make-jekyll-multilingual-c13e74c18f1c

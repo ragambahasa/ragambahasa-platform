@@ -1,10 +1,28 @@
 <div id="main-menu" class="main-menu">
-  {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
+  {% assign navigations = site.data.navigation.i18n_header  %}
+  {% for navigation in navigations  %}
+  {% if navigation.language == page.lang %}
   <ul>
-    {% for item in mainmenu %}
+    {% for item in navigation.links | sort: 'weight' %}
+    {% if item.title == "en" %}
     <li class="{% if item.url == page.url %}active{% endif %}">
-      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+      <a href="{{ item.url | relative_url }}">
+        <img src="/assets/icon/indonesia.png" alt="id_logo" width="25" height="25">
+      </a>
     </li>
+    {% elsif item.title == "id" %}
+    <li class="{% if item.url == page.url %}active{% endif %}">
+      <a href="{{ item.url | relative_url }}">
+        <img src="/assets/icon/united-kingdom.png" alt="id_logo" width="25" height="25">
+      </a>
+    </li>
+    {% else %}
+    <li class="{% if item.url == page.url %}active{% endif %}">
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    </li>
+    {% endif %}
     {% endfor %}
   </ul>
+  {% endif %}
+  {% endfor %}
 </div>

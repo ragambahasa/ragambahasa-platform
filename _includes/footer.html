@@ -4,14 +4,18 @@
       <div class="col-12">
         <div class="footer-inner">
           <h2 class="footer-title">{{site.title}}</h2>
+          {% assign navigations = site.data.navigation.i18n_footer  %}
+          {% for navigation in navigations  %}
+          {% if navigation.language == page.lang %}
           <ul>
-            {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
-            {% for item in footermenu %}
+            {% for item in navigation.links | sort: 'weight' %}
             <li class="{% if item.url == page.url %}active{% endif %}">
-              <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
             </li>
             {% endfor %}
           </ul>
+          {% endif %}
+          {% endfor %}
         </div>
       </div>
     </div>

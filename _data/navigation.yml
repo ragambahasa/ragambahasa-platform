@@ -1,0 +1,67 @@
+i18n_header: 
+  - language: "en" 
+    links: 
+    - title: "DataHub" 
+      url: https://ragambahasa.id/login 
+      weight: 1
+    # - title: "OCR-DT" 
+    #   url: "/en/#!" 
+    #   weight: 2
+    # - title: "Translate" 
+    #   url: "/en/#!" 
+    #   weight: 3
+    - title: "Stats" 
+      url: "https://ragambahasa.id/statistics" 
+      weight: 4
+    # - title: "Blog" 
+    #   url: "/en/#!" 
+    #   weight: 5
+    - title: "id" 
+      url: /id/ 
+      weight: 6
+    
+  - language: "id" 
+    links: 
+    - title: "DataHub" 
+      url: https://ragambahasa.id/login 
+      weight: 1
+    # - title: "OCR-DT" 
+    #   url: "/id/#!" 
+    #   weight: 2
+    # - title: "Translate" 
+    #   url: "/id/#!" 
+    #   weight: 3
+    - title: "Stats" 
+      url: "https://ragambahasa.id/statistics" 
+      weight: 4
+    # - title: "Blog" 
+    #   url: "/id/#!" 
+    #   weight: 5
+    - title: "en" 
+      url: /en/ 
+      weight: 6
+
+
+i18n_footer:
+  - language: "en" 
+    links: 
+    - title: "FAQ"
+      url: "/en/#!"
+      weight: 1
+    - title: "Contact"
+      url: "/en/#!"
+      weight: 2
+    - title: "About"
+      url: "/en/about/"
+      weight: 3
+  - language: "id" 
+    links: 
+    - title: "FAQ"
+      url: "/id/#!"
+      weight: 1
+    - title: "Kontak"
+      url: "/id/#!"
+      weight: 2
+    - title: "Tentang"
+      url: "/id/tentang/"
+      weight: 3
