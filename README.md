@@ -1,30 +1,10 @@
-# Jekyll Serif Theme
+# RagamBahasa - a grassroot initiative on Indonesia local language resources dataset collecting
 
-This websites use themes from [jekyll-serif-theme](https://github.com/zerostaticthemes/jekyll-serif-theme)
+_Description coming soon_
 
 ## Installation
 
-### Installing Theme
-
-Download or clone the theme.
-
-To run the theme locally, navigate to the theme directory and run:
-
-```
-bundle install
-```
-
-To start the Jekyll local development server.
-
-```
-bundle exec jekyll serve
-```
-
-To build the theme.
-
-```
-bundle exec jekyll build
-```
+_How to install this project are coming soon_
 
 ### Credits
 
@@ -32,3 +12,4 @@ bundle exec jekyll build
 - Stock images by Unsplash - https://unsplash.com/
 - Feature icons by Noun Project - https://thenounproject.com/
 - Jekyll Multilingual without Plugins - https://migueldavid.eu/how-to-make-jekyll-multilingual-c13e74c18f1c
+- This websites use themes from [jekyll-serif-theme](https://github.com/zerostaticthemes/jekyll-serif-theme)
