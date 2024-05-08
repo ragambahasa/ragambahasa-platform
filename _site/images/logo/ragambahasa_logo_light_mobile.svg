@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50.276382"
+   height="36.249947"
+   viewBox="0 0 13.302292 9.5911317"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="ragambahasa_logo_light_mobile.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="2.9255612"
+     inkscape:cx="135.18774"
+     inkscape:cy="69.901118"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:pageshadow="2"
+     showgrid="false" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.0583342,-1.0583335)">
+    <path
+       id="path32"
+       style="fill:#e5261f;fill-opacity:1;stroke:#e5261f;stroke-width:0.529167;stroke-dasharray:none;stroke-opacity:1"
+       d="m 12.889704,8.750648 c 0.33705,0 0.63187,-0.270399 0.6612,-0.606164 l 0.54304,-6.215808 c 0.0293,-0.335766 -0.21854,-0.605759 -0.55558,-0.605759 H 9.593843 c -0.337043,0 -0.631871,0.269993 -0.661196,0.605759 L 8.634826,5.336627 C 8.264607,6.18449 7.804421,6.490098 7.455679,7.006612 7.356949,7.152845 7.950758,7.164127 8.478631,7.125579 L 8.389611,8.144484 C 8.360281,8.480249 8.60815,8.750648 8.945194,8.750648 Z"
+       sodipodi:nodetypes="sccssccsccss" />
+    <g
+       aria-label="A"
+       transform="skewX(-6.1943137)"
+       id="text32"
+       style="font-size:4.93431px;fill:#ffffff;stroke:#ffffff;stroke-width:0.20718;stroke-linecap:round;stroke-linejoin:round">
+      <path
+         d="M 10.261078,6.8748174 11.60321,3.1987565 h 0.424351 l 1.342132,3.6760609 H 12.955211 L 12.639415,5.976773 H 10.99629 l -0.32073,0.8980444 z m 0.863504,-1.2681177 h 1.376673 L 11.756174,3.494815 h 0.118423 z"
+         style="font-family:'Plus Jakarta Sans';-inkscape-font-specification:'Plus Jakarta Sans'"
+         id="path826" />
+    </g>
+    <path
+       id="path33"
+       style="fill:#e5261f;fill-opacity:1;stroke:#e5261f;stroke-width:0.529167;stroke-dasharray:none;stroke-opacity:1"
+       d="m 2.529256,2.95715 c -0.337043,0 -0.631871,0.2704 -0.661196,0.606164 L 1.325021,9.779123 c -0.02933,0.335765 0.21854,0.605759 0.555583,0.605759 h 3.944515 c 0.337044,0 0.631871,-0.269994 0.661196,-0.605759 L 6.784137,6.371172 C 7.335896,5.730345 8.014811,4.973551 7.963283,4.701186 7.946703,4.613516 7.291893,4.781746 6.940331,4.58222 L 7.029351,3.563314 C 7.058681,3.22755 6.810812,2.95715 6.473768,2.95715 Z"
+       sodipodi:nodetypes="sccssccsccss" />
+    <path
+       d="M 3.03096,6.992293 C 3.170531,6.143762 3.273936,5.40026 3.260729,5.340068 3.239309,5.242368 3.208279,5.241748 2.971526,5.334268 2.661379,5.455523 2.649971,5.45711 2.663119,5.377178 2.676469,5.296028 3.52278,4.945236 3.705217,4.945236 c 0.102744,0 0.147313,0.06047 0.155624,0.211165 0.0064,0.11614 0.01711,0.210632 0.02385,0.20998 0.0067,-6.33e-4 0.299493,-0.110979 0.650632,-0.245175 0.785668,-0.300259 1.014772,-0.314371 1.06839,-0.06581 0.02142,0.0993 -0.08315,0.922848 -0.232378,1.830095 L 5.10001,8.535033 H 4.818458 4.536905 L 4.755268,7.20748 C 4.875368,6.477326 4.977767,5.7296 4.982791,5.545866 4.991791,5.218534 4.987391,5.212539 4.767791,5.248248 4.644502,5.268298 4.382477,5.349723 4.185512,5.429207 L 3.827398,5.573724 3.583853,7.054378 3.340307,8.535033 H 3.058754 2.777199 Z"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.266034"
+       id="path34" />
+  </g>
+</svg>
