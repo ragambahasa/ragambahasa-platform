@@ -18,13 +18,13 @@ i18n:
     contents:
     
     - header: "Bahasa Indonesia tercatat sebagai Bahasa yang Sedang Naik Daun!"
-      description: "Indonesian Languages is considered a \"rising star\" (<a href=\"https://microsoft.github.io/linguisticdiversity/\" target=\"_blank\" >microsoft</a>) in terms of language resources (due to its strong web presence and thriving online). Indonesia also has more than 700 local languages spread over 17,508 islands, making Indonesia the second country with the world's largest spoken languages."
+      description: "Bahasa Indonesia dianggap sebagai \"rising star\" (<a href=\"https://microsoft.github.io/linguisticdiversity/\" target=\"_blank\" >microsoft</a>) dalam hal sumber daya bahasa (dengan perkembangan daringnya yang kuat). Indonesia juga memiliki lebih dari 700 bahasa daerah yang tersebar di 17.508 pulau, menjadikan Indonesia sebagai negara kedua dengan bahasa terbesar di dunia."
       thumbnail: "https://images.unsplash.com/photo-1611637641767-fd83fbcf9d73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
     
     - header: "Mengkurasi Data Berkualitas Tinggi untuk Terjemahan"
-      description: "To start a grassroot effort in South East Asia to strengthen and spur MT research in the region and for researchers interested in collecting and working on any language data."
+      description: "Untuk memulai upaya <i>grassroot</i> di Asia Tenggara guna memperkuat dan memacu penelitian Mesin Terjemahan serta bagi para peneliti yang tertarik dalam mengumpulkan dan meneliti data bahasa."
       thumbnail: "https://cdn.pixabay.com/photo/2017/08/01/00/40/books-2562331_1280.jpg"
     
-    - header: "Mesin Penerjemah"
-      description: "State-of-the-art only exist for 100 languages. Many languages still do not have training data or existing technologies for translation."
+    - header: "Mesin Terjemahan"
+      description: "State-of-the-art baru tersedia untuk 100 bahasa. Banyak bahasa masih belum memiliki <i>data training</i> atau teknologi untuk penerjemahan."
       thumbnail: "https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
