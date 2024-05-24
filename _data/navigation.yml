@@ -12,6 +12,7 @@ i18n_header:
     #   weight: 3
     - title: "Stats" 
       url: "https://ragambahasa.id/statistics" 
+      # url: "/stats"
       weight: 4
     # - title: "Blog" 
     #   url: "/en/#!" 
@@ -33,6 +34,7 @@ i18n_header:
     #   weight: 3
     - title: "Stats" 
       url: "https://ragambahasa.id/statistics" 
+      # url: "/stats"
       weight: 4
     # - title: "Blog" 
     #   url: "/id/#!" 
@@ -49,10 +51,10 @@ i18n_footer:
       url: "/en/#!"
       weight: 1
     - title: "Contact"
-      url: "/en/#!"
+      url: "/en/contact"
       weight: 2
     - title: "About"
-      url: "/en/about/"
+      url: "/en/about"
       weight: 3
   - language: "id" 
     links: 
@@ -60,8 +62,22 @@ i18n_footer:
       url: "/id/#!"
       weight: 1
     - title: "Kontak"
-      url: "/id/#!"
+      url: "/id/contact"
       weight: 2
     - title: "Tentang"
-      url: "/id/tentang/"
+      url: "/id/about"
       weight: 3
+
+
+i18n_sub_footer:
+  - language: "en" 
+    links: 
+    - title: "Terms of Usage"
+      url: "/en/terms"
+      weight: 1
+
+  - language: "id" 
+    links: 
+    - title: "Kebijakan Penggunaan"
+      url: "/id/terms"
+      weight: 1
