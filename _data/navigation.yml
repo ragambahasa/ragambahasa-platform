@@ -1,19 +1,19 @@
 i18n_header: 
   - language: "en" 
     links: 
-    - title: "DataHub" 
-      url: https://ragambahasa.id/login 
-      weight: 1
+    # - title: "DataHub" 
+    #   url: https://ragambahasa.id/login 
+    #   weight: 1
     # - title: "OCR-DT" 
     #   url: "/en/#!" 
     #   weight: 2
     # - title: "Translate" 
     #   url: "/en/#!" 
     #   weight: 3
-    - title: "Stats" 
-      url: "https://ragambahasa.id/statistics" 
+    # - title: "Stats" 
+    #   url: "https://ragambahasa.id/statistics" 
       # url: "/stats"
-      weight: 4
+      # weight: 4
     # - title: "Blog" 
     #   url: "/en/#!" 
     #   weight: 5
@@ -23,19 +23,19 @@ i18n_header:
     
   - language: "id" 
     links: 
-    - title: "DataHub" 
-      url: https://ragambahasa.id/login 
-      weight: 1
+    # - title: "DataHub" 
+    #   url: https://ragambahasa.id/login 
+    #   weight: 1
     # - title: "OCR-DT" 
     #   url: "/id/#!" 
     #   weight: 2
     # - title: "Translate" 
     #   url: "/id/#!" 
     #   weight: 3
-    - title: "Stats" 
-      url: "https://ragambahasa.id/statistics" 
+    # - title: "Stats" 
+    #   url: "https://ragambahasa.id/statistics" 
       # url: "/stats"
-      weight: 4
+      # weight: 4
     # - title: "Blog" 
     #   url: "/id/#!" 
     #   weight: 5
@@ -75,9 +75,15 @@ i18n_sub_footer:
     - title: "Terms of Usage"
       url: "/en/terms"
       weight: 1
+    # - title: "Changelog"
+    #   url: "/changelog"
+    #   weight: 2
 
   - language: "id" 
     links: 
     - title: "Kebijakan Penggunaan"
       url: "/id/terms"
       weight: 1
+    # - title: "Changelog"
+    #   url: "/changelog"
+    #   weight: 2
