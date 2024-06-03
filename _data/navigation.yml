@@ -12,8 +12,11 @@ i18n_header:
     #   weight: 3
     # - title: "Stats" 
     #   url: "https://ragambahasa.id/statistics" 
-      # url: "/stats"
-      # weight: 4
+    #   url: "/stats"
+    #   weight: 4
+    - title: "OCR-DT" 
+      url: "https://ocrdt.zuhdifikri.my.id" 
+      weight: 4
     # - title: "Blog" 
     #   url: "/en/#!" 
     #   weight: 5
@@ -35,6 +38,9 @@ i18n_header:
     # - title: "Stats" 
     #   url: "https://ragambahasa.id/statistics" 
       # url: "/stats"
+    - title: "OCR-DT" 
+      url: "https://ocrdt.zuhdifikri.my.id" 
+      weight: 4
       # weight: 4
     # - title: "Blog" 
     #   url: "/id/#!" 
