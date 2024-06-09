@@ -15,7 +15,7 @@ i18n_header:
     #   url: "/stats"
     #   weight: 4
     - title: "OCR-DT" 
-      url: "https://ocrdt.zuhdifikri.my.id" 
+      url: "https://ocrdt.ragambahasa.id" 
       weight: 4
     # - title: "Blog" 
     #   url: "/en/#!" 
@@ -39,7 +39,7 @@ i18n_header:
     #   url: "https://ragambahasa.id/statistics" 
       # url: "/stats"
     - title: "OCR-DT" 
-      url: "https://ocrdt.zuhdifikri.my.id" 
+      url: "https://ocrdt.ragambahasa.id" 
       weight: 4
       # weight: 4
     # - title: "Blog" 
