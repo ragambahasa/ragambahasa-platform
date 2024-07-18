@@ -51,22 +51,24 @@ i18n_header:
 
 
 i18n_footer:
+
   - language: "en" 
     links: 
-    - title: "FAQ"
-      url: "/en/#!"
-      weight: 1
+    # - title: "FAQ"
+    #   url: "/en/#!"
+    #   weight: 1
     - title: "Contact"
       url: "/en/contact"
       weight: 2
     - title: "About"
       url: "/en/about"
       weight: 3
+
   - language: "id" 
     links: 
-    - title: "FAQ"
-      url: "/id/#!"
-      weight: 1
+    # - title: "FAQ"
+    #   url: "/id/#!"
+    #   weight: 1
     - title: "Kontak"
       url: "/id/contact"
       weight: 2

@@ -11,7 +11,7 @@ lang: id
 
 # RagamBahasa
 {% for item in site.data.home_hero.i18n  %}
-{% if item.language == "en" %}
+{% if item.language == "id" %}
 {{ item.subtitle }}
 {% endif %}
 {% endfor %}
